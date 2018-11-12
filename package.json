@@ -1,0 +1,19 @@
+{
+  "name": "plmbot",
+  "version": "1.0.0",
+  "description": "Chatbot for PLM Support Tasks",
+  "main": "App.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start" : "node index.js" <<-- add this line!
+  },
+  "author": "Ezhil",
+  "license": "ISC",
+  "dependencies": {
+    "botbuilder": "^3.13.1",
+    "https": "^1.0.0",
+    "motivation": "^1.0.3",
+    "request-promise": "^4.2.2",
+    "restify": "^7.2.2"
+  }
+}
