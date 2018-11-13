@@ -24,5 +24,5 @@ server.post('/api/messages', connector.listen());
 // This is called the root dialog. It is the first point of entry for any message the bot receives
 bot.dialog('/', function (session) {
 // Send 'hello world' to the user
-session.send("Hello World");
+session.send("Hi.. I am Chatbot.. How are you?");
 });
